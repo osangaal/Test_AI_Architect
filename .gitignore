@@ -1,0 +1,42 @@
+# =====================================================================
+# Material interno del panel (rúbrica, soluciones modelo, código en vivo,
+# guía del panel, fuente original). NUNCA debe llegar al candidato.
+# =====================================================================
+_internal/
+
+# Secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# IDEs / editores
+.vscode/
+.idea/
+*.swp
+*.swo
+.cursor/
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+logs/
